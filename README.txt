@@ -1,4 +1,4 @@
-<center><img src="http://i.imgur.com/2fxoL.png" /></center>
+![ScreenShot](http://i.imgur.com/2fxoL.png)
 
 Hi Guys
 
