@@ -1,0 +1,10 @@
+## Interface: 40300
+## Title: |cffC495DDSpeckUI|r
+## Version: 1.0(Beta)
+## Credits: Tukz, Kacaos, Pat, Swordyy, Sinaris
+## Notes: Specks edit of Tukui.
+## Author: Kacaos (Speck - EU - The Maelstrom)
+## SavedVariablesPerCharacter: SpeckUISaved
+## RequiredDeps: SpeckUI_Config, Tukui
+
+SpeckUI.xml

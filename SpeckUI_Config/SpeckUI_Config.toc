@@ -1,0 +1,10 @@
+## Interface: 40300
+
+## Title: |cffC495DDSpeckUI_Config|r
+
+## Notes: Configuration for SpeckUI.
+
+## Author: Speck
+
+config\config.lua
+
