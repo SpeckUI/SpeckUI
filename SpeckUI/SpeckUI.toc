@@ -1,4 +1,4 @@
-## Interface: 40300
+## Interface: 50001
 ## Title: |cffC495DDSpeckUI|r
 ## Version: 1.0(Beta)
 ## Credits: Tukz, Kacaos, Pat, Swordyy, Sinaris
