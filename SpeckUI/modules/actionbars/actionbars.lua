@@ -42,18 +42,18 @@ for i = 1, 10 do
 	end
 	
 -- Shift Bar
-TukuiShiftBar:ClearAllPoints()
-TukuiShiftBar:SetPoint("TOPLEFT", TukuiMinimap, "BOTTOMLEFT", 142, 90)
-TukuiShiftBar:SetFrameStrata("BACKGROUND")
-TukuiShiftBar:SetBackdrop(nil)
+TukuiStance:ClearAllPoints()
+TukuiStance:SetPoint("TOPLEFT", TukuiMinimap, "BOTTOMLEFT", 142, 97)
+TukuiStance:SetFrameStrata("BACKGROUND")
+TukuiStance:SetBackdrop(nil)
 
 if T.myclass == "SHAMAN" then
 	if MultiCastActionBarFrame then
-        TukuiShiftBar:ClearAllPoints()
-		TukuiShiftBar:SetPoint("BOTTOMLEFT", 2,145 )
-		TukuiShiftBar:Hide()
+        TukuiStance:ClearAllPoints()
+		TukuiStance:SetPoint("BOTTOMLEFT", 2,145 )
+		TukuiStance:Hide()
 		
-local totem = TukuiShiftBar
+local totem = TukuiStance
 SLASH_TOTEM1 = "/totem"
 SlashCmdList["TOTEM"] = function()
 	if InCombatLockdown() then

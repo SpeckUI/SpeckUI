@@ -20,23 +20,21 @@ local function style(self)
 	local Count = _G[name.."Count"]
 	local HotKey = _G[name.."HotKey"]
     local Icon = _G[name.."Icon"]
-    local Border = _G[name.."Panel"]
 	Count:SetFont(C["media"].pixelfont, 12, "MONOCHROMEOUTLINE")
 	HotKey:SetFont(C["media"].pixelfont, 12, "MONOCHROMEOUTLINE")
     Icon:Point("TOPLEFT", 1, -1)
 	Icon:Point("BOTTOMRIGHT", -1, 1)
-	Border:SetBackdropColor(0,0,0,0.5)
+
 end
 hooksecurefunc("ActionButton_Update", style)
 
 
 --Skin Pet/StanceBar
 local function StyleActionBarPetAndShiftButton(normal, button, icon, name, pet)
-	local Border = _G[name.."Panel"]
 	local Icon = _G[name.."Icon"]
     Icon:Point("TOPLEFT", 1, -1)
 	Icon:Point("BOTTOMRIGHT", -1, 1)
-	Border:SetBackdropColor(0,0,0,0.5)
+
 end
 hooksecurefunc(T, "StyleActionBarPetAndShiftButton", StyleActionBarPetAndShiftButton)
 
